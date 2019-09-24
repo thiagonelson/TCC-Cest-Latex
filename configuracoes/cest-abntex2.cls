@@ -46,10 +46,10 @@
     brazil,                   % Idioma do documento
 }{abntex2}
 
-\newcommand{\apendicesname}{AP\^ENDICES}
-\newcommand{\apendicename}{Ap\^endice}
-\newcommand{\anexoname}{Anexo}
-\newcommand{\anexosname}{ANEXOS}
+%\newcommand{\apendicesname}{AP\^ENDICES}
+%\newcommand{\apendicename}{Ap\^endice}
+%\newcommand{\anexoname}{Anexo}
+%\newcommand{\anexosname}{ANEXOS}
 %\newboolean{ABNTEXupperchapter}{True}
 
 \ProcessOptions\relax
