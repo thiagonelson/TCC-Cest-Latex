@@ -36,8 +36,12 @@
 \begin{document}
 
 \pretextual
-\imprimircapa                                               	           % Comando para 
+\imprimircapa     % Comando para 
 \imprimirfolhaderosto{}                                     		   % Comando para 
+% comecar a numeracao a partir da folha de rosto
+\clearpage
+\setcounter{page}{2}
+
 % INSERE ELEMENTOS PRÉ-TEXTUAIS
 \include{estrutura/pre-textuais/03_dedicatoria}          			   % Dedicatória
 \include{estrutura/pre-textuais/04_agradecimentos}        			   % Agradecimentos

@@ -170,7 +170,7 @@
 {%
    \pagenumbering{arabic} % A numeração das páginas é em algarismos arábicos, inciando em 1
 %    \pagestyle{abntheadings}
-%    \aliaspagestyle{chapter}{abntchapfirst}
+    \aliaspagestyle{chapter}{abntchapfirst}
 %    \nouppercaseheads
 %    \bookmarksetup{startatroot}
 
@@ -351,7 +351,7 @@
             \ABNTEXchapterfont\large\MakeUppercase{\imprimirtitulo}
             \abntex@ifnotempty{\imprimirsubtitulo}
 	    {%
-                {\ABNTEXchapterfont: }{\large{\imprimirsubtitulo}}
+                {\ABNTEXchapterfont \\ }{\large{\imprimirsubtitulo}}
             }
         \end{center}
 	\vspace{120pt}
@@ -388,7 +388,7 @@
         \ABNTEXchapterfont\large\MakeUppercase{\imprimirtitulo}
         \abntex@ifnotempty{\imprimirsubtitulo}
 	{%
-        	{\ABNTEXchapterfont: }{\large{\imprimirsubtitulo}}
+        	{\ABNTEXchapterfont \\ }{\large{\imprimirsubtitulo}}
         }
     \end{center}
 
